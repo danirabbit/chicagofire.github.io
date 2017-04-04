@@ -10,6 +10,16 @@ body {
     min-height: 100vh;
 }
 
+nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 32px;
+}
+
 main {
     flex: 1;
 }

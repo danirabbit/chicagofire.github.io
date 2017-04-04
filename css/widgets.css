@@ -6,3 +6,63 @@
     padding: 6px;
     text-decoration: none;
 }
+
+.deck {
+    display: flex;
+    margin: 16px 0;
+    overflow-x: auto;
+}
+
+.card {
+    border-radius: 3px;
+    box-shadow:
+        0 1px 3px rgba(0,0,0,0.12),
+        0 1px 2px rgba(0,0,0,0.24);
+    margin: 0 16px 16px;
+    min-width: 300px;
+    overflow: hidden;
+}
+
+.card .image-header {
+    height: 170px;
+    background-position-y: center;
+    background-size: cover;
+}
+
+.card .content-area {
+    padding: 24px 16px;
+}
+
+.card .action {
+    align-items: center;
+    color: #666;
+    display: flex;
+    margin: 16px 0;
+}
+
+.card .action:hover {
+    color: #da1c1c;
+}
+
+.card .fa {
+    margin-right: 16px;
+}
+
+.card h1 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.card hr {
+    border-color: #ddd;
+    border-style: solid;
+    border-width: 1px 0 0 0;
+    margin: 16px 0;
+}
+
+.card p {
+    color: #666;
+    font-size: 14px;
+    margin: 8px 0;
+}

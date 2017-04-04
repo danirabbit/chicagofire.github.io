@@ -30,6 +30,19 @@ main {
     flex: 1;
 }
 
+a {
+    color: #da1c1c;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0;
+}
+
 img {
     max-width: 100%;
+}
+
+section {
+    margin: 16px;
 }

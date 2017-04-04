@@ -1,0 +1,59 @@
+{
+    "sutter": {
+        "title": "Historic Folsom",
+        "hours": [
+            "Sun: 12:00 – 9:00 pm",
+            "Mon – Thurs: 4:00 – 9:00 pm",
+            "Fri: 4:00 – 10:00 pm",
+            "Sat: 12:00 – 10:00 pm"
+        ],
+        "address": {
+            "url": "http://maps.google.com/maps?saddr=614+Sutter+Street,+Folsom,+CA",
+            "label": "614 Sutter Street"
+        },
+        "phone": {
+            "url": "tel:19163530140",
+            "label": "(916) 353-0140"
+        },
+        "email": {
+            "url": "mailto:sarah@chicagofire.com",
+            "label": "Sarah Brateng"
+        }
+    },
+    "palladio": {
+        "title": "Folsom Palladio",
+        "hours": [
+            "Every Day: 11:00 – 10:00 pm"
+        ],
+        "address": {
+            "url": "",
+            "label": "310 Palladio Parkway"
+        },
+        "phone": {
+            "url": "tel:19169840140",
+            "label": "(916) 984-0140"
+        },
+        "email": {
+            "url": "mailto:jim@chicagofire.com",
+            "label": "Jim Borton"
+        }
+    },
+    "midtown": {
+        "title": "Midtown Sacramento",
+        "hours": [
+            "Every Day: 11:30 – 10:00 pm"
+        ],
+        "address": {
+            "url": "",
+            "label": "2416 J Street"
+        },
+        "phone": {
+            "url": "tel:19164430440",
+            "label": "(916) 443-0440"
+        },
+        "email": {
+            "url": "mailto:brett@chicagofire.com",
+            "label": "Brett Hagen"
+        }
+    }
+}

@@ -55,5 +55,43 @@
             "url": "mailto:brett@chicagofire.com",
             "label": "Brett Hagen"
         }
+    },
+    "roseville": {
+        "title": "Roseville",
+        "hours": [
+            "Sun – Thurs: 11:30 – 9:00 pm",
+            "Fri – Sat: 11:30 – 10:00 pm"
+        ],
+        "address": {
+            "url": "",
+            "label": "500 N. Sunrise Ave"
+        },
+        "phone": {
+            "url": "tel:19167712020",
+            "label": "(916) 771-2020"
+        },
+        "email": {
+            "url": "mailto:natasha@chicagofire.com",
+            "label": "Natasha Connolly"
+        }
+    },
+    "elkgrove": {
+        "title": "Elk Grove",
+        "hours": [
+            "Sun – Thurs: 11:30 – 10:00 pm",
+            "Fri – Sat: 11:30 – 11:00 pm"
+        ],
+        "address": {
+            "url": "",
+            "label": "2416 J Street"
+        },
+        "phone": {
+            "url": "tel:19166678370",
+            "label": "(916) 667-8370"
+        },
+        "email": {
+            "url": "mailto:pete@chicagofire.com",
+            "label": "Pete Kertesz"
+        }
     }
 }

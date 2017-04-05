@@ -26,3 +26,11 @@
 .image-header.midtown {
     background-image: url('/images/index/card-midtown.jpg');
 }
+
+.image-header.roseville {
+    background-image: url('/images/index/card-roseville.jpg');
+}
+
+.image-header.elkgrove {
+    background-image: url('/images/index/card-elkgrove.jpg');
+}

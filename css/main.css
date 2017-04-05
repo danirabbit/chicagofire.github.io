@@ -11,6 +11,40 @@ body {
     min-height: 100vh;
 }
 
+footer {
+    align-items: center;
+    color: #666;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 400;
+    justify-content: space-between;
+    margin: 16px 0;
+}
+
+footer a {
+    color: #666;
+    margin: 6px;
+}
+
+footer a:hover {
+    color: #333;
+}
+
+footer img {
+    margin: 0 12px;
+    max-height: 32px;
+    max-width: 75%;
+    vertical-align: middle;
+}
+
+footer > div {
+    margin: 16px;
+}
+
+main {
+    flex: 1;
+}
+
 nav {
     align-items: center;
     box-shadow:
@@ -24,10 +58,6 @@ nav {
 
 nav img {
     width: 32px;
-}
-
-main {
-    flex: 1;
 }
 
 a {

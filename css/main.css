@@ -48,17 +48,41 @@ main {
 
 nav {
     align-items: center;
+    background-color: #212121;
     box-shadow:
         0 1px 3px rgba(0,0,0,0.12),
         0 1px 2px rgba(0,0,0,0.24);
     display: flex;
+    font-weight: 500;
+    height: 56px;
     justify-content: space-between;
-    padding: 8px;
     z-index: 999;
 }
 
-nav img {
+nav a {
+    color: #fff;
+    margin: 0 12px;
+}
+
+nav .button {
+    padding: 9px;
+    margin-right: 9px;
+}
+
+nav .logo {
+    background-image: url(/images/nav/logo.svg);
+    background-size: cover;
+    display: inline-block;
+    height: 32px;
+    vertical-align: middle;
     width: 32px;
+}
+
+@media (min-width: 768px) {
+    nav .logo {
+        background-image: url(/images/nav/logo-wide.svg);
+        width: 182px;
+    }
 }
 
 a {

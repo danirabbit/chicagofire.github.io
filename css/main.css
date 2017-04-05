@@ -16,6 +16,7 @@ footer {
     color: #666;
     display: flex;
     flex-wrap: wrap;
+    font-size: 12px;
     font-weight: 400;
     justify-content: space-between;
     margin: 16px 0;
@@ -31,7 +32,7 @@ footer a:hover {
 }
 
 footer img {
-    margin: 0 12px;
+    margin: 0 6px;
     max-height: 32px;
     max-width: 75%;
     vertical-align: middle;

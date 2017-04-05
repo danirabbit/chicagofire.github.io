@@ -22,18 +22,18 @@ $.getJSON('/data/locations.json', function (json) {
         $('.' + key +' .content-area').append ('<hr/>');
 
         var map_link = '<a class="action" href="'
-            + location.address.url
+            + 'http://maps.google.com/maps?saddr=' + location.address
             + '" target="_blank"><i class="fa fa-fw fa-lg fa-map-marker"></i><span>'
-            + location.address.label + '<span></a>';
+            + location.address + '<span></a>';
         $('.' + key +' .content-area').append (map_link);
 
-        var phone_link = '<a class="action" href="'
-            + location.phone.url
+        var phone_link = '<a class="action" href="tel:'
+            + location.phone.replace(/[^\w]/gi, '')
             + '" target="_blank"><i class="fa fa-fw fa-lg fa-phone"></i><span>'
-            + location.phone.label + '<span></a>';
+            + location.phone + '<span></a>';
         $('.' + key +' .content-area').append (phone_link);
 
-        var email_link = '<a class="action" href="'
+        var email_link = '<a class="action" href="mailto:'
             + location.email.url
             + '" target="_blank"><i class="fa fa-fw fa-lg fa-envelope"></i><span>'
             + location.email.label + '<span></a>';

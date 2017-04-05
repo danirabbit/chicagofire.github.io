@@ -10,7 +10,7 @@
         "address": "614 Sutter Street",
         "phone": "(916) 353-0140",
         "email": {
-            "url": "sarah@chicagofire.com",
+            "url": "sarah@chicagofire.com; sam@chicagofire.com; roberta@chicagofire.com",
             "label": "Sarah Brateng"
         }
     },
@@ -22,7 +22,7 @@
         "address": "310 Palladio Parkway",
         "phone": "(916) 984-0140",
         "email": {
-            "url": "jim@chicagofire.com",
+            "url": " jim@chicagofire.com; sam@chicagofire.com; galen@chicagofire.com",
             "label": "Jim Borton"
         }
     },
@@ -34,7 +34,7 @@
         "address": "2416 J Street",
         "phone": "(916) 443-0440",
         "email": {
-            "url": "brett@chicagofire.com",
+            "url": " brett@chicagofire.com; eddie@chicagofire.com; sam@chicagofire.com",
             "label": "Brett Hagen"
         }
     },
@@ -47,7 +47,7 @@
         "address": "500 N. Sunrise Ave",
         "phone": "(916) 771-2020",
         "email": {
-            "url": "natasha@chicagofire.com",
+            "url": "natasha@chicagofire.com; sam@chicagofire.com;",
             "label": "Natasha Connolly"
         }
     },
@@ -60,7 +60,7 @@
         "address": "7101 Laguna Blvd",
         "phone": "(916) 667-8370",
         "email": {
-            "url": "pete@chicagofire.com",
+            "url": " pete@chicagofire.com; wyman@chicagofire.com; sam@chicagofire.com",
             "label": "Pete Kertesz"
         }
     }

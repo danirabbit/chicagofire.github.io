@@ -8,7 +8,7 @@ $.getJSON('/data/locations.json', function (json) {
         var image_header = '<div class="' + key + ' image-header"></div>';
         $('.card.' + key).append (image_header);
 
-        var content_area = '<div class="content-area"></div>'
+        var content_area = '<div class="content-area"></div>';
         $('.card.' + key).append (content_area);
 
         var title = '<h1>' + location.title + '</h1>';

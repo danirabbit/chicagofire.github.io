@@ -8,6 +8,7 @@
 }
 
 .deck {
+    align-items: flex-start;
     display: flex;
     margin: 16px 0;
     overflow-x: auto;
